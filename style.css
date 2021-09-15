@@ -1,11 +1,10 @@
 * {
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-    width: 100%;
-    position: absolute;
-    top: 0%;
+    
 }
 
 button {
@@ -14,18 +13,22 @@ button {
 }
 
 nav {
-
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    background-color: royalblue;
 }
 
 .imgFrame {
     margin: 10px solid orange;
     border: 10px solid yellow;
-    padding: 10px solid violet;
+    padding: 10px;
+    background-color: violet;
 }
 
 .lowerBox {
-    width: 100%
-    
+    width: 100%;
+    background-color: skyblue;
 }
 
 img {
@@ -33,5 +36,6 @@ img {
     width: 200px;
     margin: 10px solid green;
     border: 10px solid blue;
-    padding: 10px solid red;
+    padding: 10px;
+    background-color: red;
 }
